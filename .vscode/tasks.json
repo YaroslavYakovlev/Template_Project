@@ -33,6 +33,18 @@
                 "cwd": "${workspaceRoot}/build"
             },
             "problemMatcher": []
+        },
+        {
+            "label": "CMake build",
+            "command": "cmake",
+            "args": [
+                "--build",
+                "."                
+            ],
+            "options": {
+                "cwd": "${workspaceRoot}/build"
+            },
+            "problemMatcher": []
         }
     ]
 }
