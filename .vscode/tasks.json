@@ -27,8 +27,7 @@
             "args": [
                 "-G",
                 "MinGW Makefiles",
-                "..\\src",
-                "--build ."
+                "..\\src"
             ],
             "options": {
                 "cwd": "${workspaceRoot}/build"
