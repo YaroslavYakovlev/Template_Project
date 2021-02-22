@@ -45,6 +45,25 @@
                 "cwd": "${workspaceRoot}/build"
             },
             "problemMatcher": []
+        },
+        {
+            "label": "Clear build",
+            "command": "del",
+            "args": [
+                "Makefile"
+            ],
+            "options": {
+                "cwd": "${workspaceRoot}/build "
+            },
+            "problemMatcher":[]
         }
     ]
 }
+
+// "command": "D:\\Programms\\MinGW\\bin\\g++.exe",
+//             "args": [
+//                 "-g",
+//                 "${file}",
+//                 "-o",
+//                 "${fileDirname}\\start.exe"
+//             ],
