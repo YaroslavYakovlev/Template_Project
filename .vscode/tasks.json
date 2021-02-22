@@ -20,6 +20,20 @@
             ],
             "group": "build",
             "detail": "компилятор: D:\\Programms\\MinGW\\bin\\g++.exe"
+        },
+        {
+            "label": "CMake",
+            "command": "cmake",
+            "args": [
+                "-G",
+                "MinGW Makefiles",
+                "..\\src",
+                "--build ."
+            ],
+            "options": {
+                "cwd": "${workspaceRoot}/build"
+            },
+            "problemMatcher": []
         }
     ]
 }
